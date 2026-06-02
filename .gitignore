@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data (Raw data can be large)
+data/raw/tennis_atp/
+
+# Processed Data
+data/processed/*.npz
+
+# Results (Uncomment to ignore)
+# results/*.png
+# results/summary.txt
+
+# OS
+.DS_Store
